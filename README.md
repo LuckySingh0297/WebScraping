@@ -1,23 +1,84 @@
-# 💬 Quotes Web Scraping Project using Python
+# 🌐 Web Scraping Projects Collection using Python
 
-This project is a beginner-friendly **Web Scraping Project** built using **Python, Requests, BeautifulSoup, and Pandas**.  
-The script scrapes quotes data from the website **Quotes to Scrape** and stores the extracted information into a CSV file.
+Welcome to my **Web Scraping Projects Repository** 🚀  
+This repository contains multiple beginner-to-intermediate level web scraping projects built using **Python**, **Requests**, **BeautifulSoup**, and **Pandas**.
 
----
-
-## 🚀 Features
-
-- Scrapes data from multiple pages
-- Extracts:
-  - 💬 Quote Text
-  - ✍️ Author Name
-  - 🏷️ Tags
-- Saves data into a structured CSV file
-- Clean and beginner-friendly code
+The main goal of these projects is to practice:
+- Data Extraction
+- HTML Parsing
+- Data Cleaning
+- CSV File Handling
+- Real-world Python Automation
 
 ---
 
-## 🛠️ Technologies Used
+# 📚 Projects Included
+
+## 1️⃣ Books Scraping Project
+
+### 📌 Description
+Scrapes book information from the **Books to Scrape** website.
+
+### ✅ Extracted Data
+- 📖 Book Title
+- 💲 Price
+- ✅ Availability
+- ⭐ Rating
+
+### 📂 Files
+```bash
+b.py
+books_data.csv
+```
+
+### 🌐 Website
+https://books.toscrape.com/
+
+---
+
+# 💬 Quotes Scraping Project
+
+## 📌 Description
+Scrapes quotes data from the **Quotes to Scrape** website.
+
+### ✅ Extracted Data
+- 💬 Quote Text
+- ✍️ Author Name
+- 🏷️ Tags
+
+### 📂 Files
+```bash
+quotes.py
+Quotes_Info.csv
+```
+
+### 🌐 Website
+https://quotes.toscrape.com/
+
+---
+
+# 🌍 Wikipedia Scraping Project
+
+## 📌 Description
+Scrapes language information from the official Wikipedia homepage.
+
+### ✅ Extracted Data
+- 🌐 Language Name
+- 📝 Information
+- 🔗 Language Link
+
+### 📂 Files
+```bash
+wiki.py
+Wikipedia_Info.csv
+```
+
+### 🌐 Website
+https://www.wikipedia.org/
+
+---
+
+# 🛠️ Technologies Used
 
 - Python
 - Requests
@@ -26,27 +87,34 @@ The script scrapes quotes data from the website **Quotes to Scrape** and stores 
 
 ---
 
-## 📂 Project Structure
+# 📂 Repository Structure
 
 ```bash
+├── b.py
+├── books_data.csv
+│
 ├── quotes.py
 ├── Quotes_Info.csv
+│
+├── wiki.py
+├── Wikipedia_Info.csv
+│
 └── README.md
 ```
 
 ---
 
-## 📌 Website Used
+# ▶️ How to Run the Projects
 
-Website: https://quotes.toscrape.com/
+## 1️⃣ Clone the Repository
 
-This website is specially made for practicing web scraping.
+```bash
+git clone <your-github-repo-link>
+```
 
 ---
 
-## ▶️ How to Run the Project
-
-### 1️⃣ Install Required Libraries
+## 2️⃣ Install Required Libraries
 
 ```bash
 pip install requests beautifulsoup4 pandas
@@ -54,77 +122,76 @@ pip install requests beautifulsoup4 pandas
 
 ---
 
-### 2️⃣ Run the Python File
+## 3️⃣ Run Any Python File
 
+### Books Scraper
+```bash
+python b.py
+```
+
+### Quotes Scraper
 ```bash
 python quotes.py
 ```
 
----
-
-### 3️⃣ Output
-
-After running the script:
-
+### Wikipedia Scraper
 ```bash
-Quotes_Info.csv
+python wiki.py
 ```
 
-will be created containing all scraped quotes data.
+---
+
+# 📊 Skills Demonstrated
+
+✅ Web Scraping  
+✅ HTML Parsing  
+✅ Data Extraction  
+✅ Data Cleaning  
+✅ CSV File Handling  
+✅ Python Automation  
+✅ Working with Real Websites  
 
 ---
 
-## 📊 Sample Output
+# 🧠 What I Learned
 
-| Quote | Author | Tags |
-|---|---|---|
-| “The world as we have created it...” | Albert Einstein | change, deep-thoughts |
-| “It is our choices...” | J.K. Rowling | abilities, choices |
-
----
-
-## 🧠 What I Learned
+Through these projects, I learned:
 
 - Sending HTTP requests using `requests`
 - Parsing HTML using `BeautifulSoup`
-- Extracting text data from websites
-- Working with loops for multiple pages
+- Extracting structured data from websites
+- Working with loops and lists
 - Creating DataFrames using `pandas`
-- Exporting scraped data into CSV format
+- Exporting data into CSV files
+- Understanding website structures and HTML elements
 
 ---
 
-## 📜 Code Overview
+# 📈 Future Improvements
 
-The script: :contentReference[oaicite:0]{index=0}
-
-- Sends requests to each page
-- Parses HTML content
-- Finds all quote containers
-- Extracts quote text, author, and tags
-- Stores data inside a list
-- Converts data into a DataFrame
-- Saves the final output into CSV format
+- Add Exception Handling
+- Use Rotating User Agents
+- Store Data in SQL Database
+- Create Interactive Dashboards
+- Automate Scraping Tasks
+- Deploy Scrapers on Cloud
 
 ---
 
-## 📈 Future Improvements
+# 🙌 Author
 
-- Add author profile scraping
-- Store data in SQL database
-- Create interactive dashboard
-- Add error handling
-- Automate scraping process
-
----
-
-## 🙌 Author
-
-Lucky Singh  
+## Lucky Singh  
 Aspiring Data Scientist 🚀
 
 ---
 
-## ⭐ If You Like This Project
+# ⭐ Support
 
-Give this repository a ⭐ on GitHub and connect with me on LinkedIn!
+If you like these projects, give this repository a ⭐ on GitHub and connect with me on LinkedIn!
+
+---
+
+# 📌 Note
+
+These projects are made only for **educational and learning purposes**.
+Please respect website policies and robots.txt while scraping websites.
